@@ -3,10 +3,10 @@ Recv: echo:  G21    ; (mm)
 Recv: echo:  M149 C ; Units in Celsius
 Recv: 
 Recv: echo:Filament settings: Disabled
-Recv: echo:  M200 D1.75
+Recv: echo:  M200 D0.00
 Recv: echo:  M200 D0
 Recv: echo:Steps per unit:
-Recv: echo:  M92 X80.00 Y80.00 Z400.00 E97.80
+Recv: echo:  M92 X80.00 Y80.00 Z400.00 E95.88
 Recv: echo:Maximum feedrates (units/s):
 Recv: echo:  M203 X500.00 Y500.00 Z5.00 E25.00
 Recv: echo:Maximum Acceleration (units/s2):
@@ -18,37 +18,38 @@ Recv: echo:  M205 Q20000 S0.00 T0.00 X10.00 Y10.00 Z0.30 E5.00
 Recv: echo:Home offset:
 Recv: echo:  M206 X0.00 Y0.00 Z0.00
 Recv: echo:Auto Bed Leveling:
-Recv: echo:  M420 S0 Z20.00
-Recv: echo:  G29 W I0 J0 Z0.29000
-Recv: echo:  G29 W I1 J0 Z0.17250
-Recv: echo:  G29 W I2 J0 Z0.07250
-Recv: echo:  G29 W I3 J0 Z-0.01000
-Recv: echo:  G29 W I4 J0 Z-0.08250
-Recv: echo:  G29 W I0 J1 Z0.19500
-Recv: echo:  G29 W I1 J1 Z0.09750
-Recv: echo:  G29 W I2 J1 Z0.02000
-Recv: echo:  G29 W I3 J1 Z-0.04750
-Recv: echo:  G29 W I4 J1 Z-0.06250
-Recv: echo:  G29 W I0 J2 Z0.18000
-Recv: echo:  G29 W I1 J2 Z0.09500
-Recv: echo:  G29 W I2 J2 Z0.03500
-Recv: echo:  G29 W I3 J2 Z-0.02000
-Recv: echo:  G29 W I4 J2 Z-0.05000
-Recv: echo:  G29 W I0 J3 Z0.12250
-Recv: echo:  G29 W I1 J3 Z0.06500
-Recv: echo:  G29 W I2 J3 Z0.02250
-Recv: echo:  G29 W I3 J3 Z-0.02750
-Recv: echo:  G29 W I4 J3 Z0.00250
-Recv: echo:  G29 W I0 J4 Z0.18250
-Recv: echo:  G29 W I1 J4 Z0.12750
-Recv: echo:  G29 W I2 J4 Z0.07250
-Recv: echo:  G29 W I3 J4 Z0.03750
-Recv: echo:  G29 W I4 J4 Z0.02250
+Recv: echo:  M420 S0 Z10.00
+Recv: echo:  G29 W I0 J0 Z0.00250
+Recv: echo:  G29 W I1 J0 Z-0.00250
+Recv: echo:  G29 W I2 J0 Z0.05500
+Recv: echo:  G29 W I3 J0 Z0.10500
+Recv: echo:  G29 W I4 J0 Z0.14500
+Recv: echo:  G29 W I0 J1 Z-0.03500
+Recv: echo:  G29 W I1 J1 Z-0.04500
+Recv: echo:  G29 W I2 J1 Z0.01250
+Recv: echo:  G29 W I3 J1 Z0.10000
+Recv: echo:  G29 W I4 J1 Z0.13500
+Recv: echo:  G29 W I0 J2 Z-0.06250
+Recv: echo:  G29 W I1 J2 Z-0.06250
+Recv: echo:  G29 W I2 J2 Z0.02000
+Recv: echo:  G29 W I3 J2 Z0.06250
+Recv: echo:  G29 W I4 J2 Z0.11750
+Recv: echo:  G29 W I0 J3 Z-0.05750
+Recv: echo:  G29 W I1 J3 Z-0.06750
+Recv: echo:  G29 W I2 J3 Z-0.01500
+Recv: echo:  G29 W I3 J3 Z0.06750
+Recv: echo:  G29 W I4 J3 Z0.08250
+Recv: echo:  G29 W I0 J4 Z-0.07250
+Recv: echo:  G29 W I1 J4 Z-0.06750
+Recv: echo:  G29 W I2 J4 Z0.01000
+Recv: echo:  G29 W I3 J4 Z0.08000
+Recv: echo:  G29 W I4 J4 Z0.12500
 Recv: echo:Material heatup parameters:
-Recv: echo:  M145 S0 H200 B50 F255
-Recv: echo:  M145 S1 H240 B0 F255
+Recv: echo:  M145 S0 H185 B45 F255
+Recv: echo:  M145 S1 H220 B60 F127
 Recv: echo:PID settings:
-Recv: echo:  M301 P21.73 I1.54 D76.55
+Recv: echo:  M301 P22.79 I1.91 D68.15
+Recv: echo:  M304 P292.18 I54.87 D388.97
 Recv: echo:Z-Probe Offset (mm):
-Recv: echo:  M851 Z-3.00
+Recv: echo:  M851 Z-3.68
 Recv: ok
